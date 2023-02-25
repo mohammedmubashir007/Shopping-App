@@ -25,11 +25,30 @@ struct OnboardingScreenView: View {
                         .font(.title3)
                         .foregroundColor(.black)
                         .opacity(0.7)
-                    
-                    
-                    
                 }
+                Spacer()
+                
+                NavigationLink(destination: HomeScreen()) {
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(Color("6"))
+                        .frame(width: 280,height: 60)
+                        .overlay {
+                            HStack{
+                                Text("Next").foregroundColor(.black).font(.title)
+                                    .fontWeight(.bold)
+                                
+                                Image(systemName: "chevron.right")
+                                    .foregroundColor(.black)
+                                
+                            }
+                            
+                        }
+                }
+                Spacer()
+                
             }
+            
+            .navigationBarHidden(true)
         }
     }
 }
