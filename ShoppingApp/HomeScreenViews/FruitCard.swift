@@ -37,10 +37,12 @@ struct FruitCard: View {
                     .resizable()
                     .aspectRatio( contentMode: .fit)
                     .frame(width: 150,height: 110)
-            }.offset(y:60)
+            }
+            .offset(y:60)
             
-        }.frame(width: 175,height: 250,alignment: .center)
-            .shadow(radius: 5,x: 7,y: 2)
+        }
+        .frame(width: 175,height: 250,alignment: .center)
+        .shadow(radius: 5,x: 5,y: 5)
     }
 }
 
