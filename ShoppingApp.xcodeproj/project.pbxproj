@@ -15,6 +15,7 @@
 		3FE35CD829A9DCD900590E95 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35CD729A9DCD900590E95 /* HomeScreen.swift */; };
 		3FE35CDB29A9E3F600590E95 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35CDA29A9E3F600590E95 /* ImageData.swift */; };
 		3FE35CDD29A9E40900590E95 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35CDC29A9E40900590E95 /* NearYouData.swift */; };
+		3FE35CDF29AA47CF00590E95 /* FruitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE35CDE29AA47CF00590E95 /* FruitCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3FE35CD729A9DCD900590E95 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3FE35CDA29A9E3F600590E95 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		3FE35CDC29A9E40900590E95 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		3FE35CDE29AA47CF00590E95 /* FruitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				3FE35CD729A9DCD900590E95 /* HomeScreen.swift */,
+				3FE35CDE29AA47CF00590E95 /* FruitCard.swift */,
 			);
 			path = HomeScreenViews;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE35CDF29AA47CF00590E95 /* FruitCard.swift in Sources */,
 				3FE35CD829A9DCD900590E95 /* HomeScreen.swift in Sources */,
 				3FE35CDD29A9E40900590E95 /* NearYouData.swift in Sources */,
 				3FE35CC929A9D9A400590E95 /* ContentView.swift in Sources */,
