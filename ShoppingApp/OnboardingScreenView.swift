@@ -47,8 +47,10 @@ struct OnboardingScreenView: View {
                 Spacer()
                 
             }
-            
+            .navigationTitle("")
+            .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
+           
         }
     }
 }
